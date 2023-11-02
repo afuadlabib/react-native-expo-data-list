@@ -29,6 +29,8 @@ const ProfileScreen = () => {
                   backgroundColor: "#fff",
                   marginTop: "40%",
                   paddingBottom: 20,
+                  borderTopLeftRadius: 20,
+                  borderTopRightRadius: 20 
                 }}
               >
                 <Image
@@ -70,7 +72,7 @@ const ProfileScreen = () => {
           </View>
           <View style={{ paddingBottom: 20, paddingLeft: 20 }}>
             <Text style={styles.h3}>Email</Text>
-            <Text style={styles.h3I}></Text>
+            <Text style={styles.h3I}>afuad.lab@gmail.com</Text>
             <Text style={styles.h3}>No. Hp</Text>
             <Text style={styles.h3I}>081399553782</Text>
           </View>

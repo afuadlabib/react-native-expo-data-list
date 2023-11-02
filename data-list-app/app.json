@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "data-list-app",
-    "slug": "data-list-app",
+    "slug": "data-list-expo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,13 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.afuadlabib.datalistexpo"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a376c0a2-723c-4094-b4e3-51c23b48cec9"
+      }
+    },
+    "owner": "afuadlabib"
   }
 }
